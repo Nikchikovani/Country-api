@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0353a3;  
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    background-color: #fff;
+    width: 60vw;
+    padding: 3rem 2.5rem;
+    border-radius: 20px;
+    transition: all .3s ease;
+    box-shadow: 0px 0px 20px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.container:hover{
+    box-shadow: 20px 20px 10px #000;
+    transition: all .3s ease;
+}
+
+
+.container div{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input{
+    height: 40px;
+    width: 20vw;
+    border: none;
+    border-bottom: 2px solid #0152a2;
+}
+
+#searchBtn{
+    width: 45px;
+    border-radius: 999px;
+    background-color: #0666c7;
+    border: none;
+    transition: all .3s ease;
+}
+
+#searchBtn:hover{
+    transition: all .3s ease;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.icon{
+    color: #fff;
+}
+
+
+
+.search-input::placeholder{
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.589);
+    letter-spacing: 0.5px;
+}
+
+.search-input:focus{
+    outline: none;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image{
+    width: 250px;
+}
+
+.country-name{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+.list-info ul{
+    line-height: 25px;
+    display: flex;
+    gap: 5px;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: #000;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.detals{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.727);
+}
+
+.detals{
+
+}
